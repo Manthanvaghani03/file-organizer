@@ -1,3 +1,4 @@
+file_types = [ext.lower().lstrip('.') for ext in data.get('fileTypes', [])]
 
       import os
 from flask import Flask, request, jsonify
